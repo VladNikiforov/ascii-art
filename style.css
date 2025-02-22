@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-color: #222;
+  color: #f4f4f4;
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+pre {
+  font-family: monospace;
+  font-weight: bold;
+  line-height: 1.5em;
+  color: #6688cc;
+}
