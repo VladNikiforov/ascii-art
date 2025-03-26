@@ -1,1 +1,1 @@
-# ASCII-Art
+# ASCII Art
