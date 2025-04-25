@@ -1,5 +1,5 @@
 const numRows = 7
-let numCols = Math.round(window.innerWidth / 16)
+const numCols = Math.round(window.innerWidth / 16)
 
 const baseWaveAmplitude = 2.0
 const waveFrequency = 0.08
@@ -54,7 +54,6 @@ function updateWave() {
 }
 
 window.addEventListener('resize', () => {
-  numCols = Math.round(window.innerWidth / 16)
   symbolGrid = Array(numRows)
     .fill()
     .map(() => Array(numCols).fill(' '))
